@@ -257,7 +257,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['文華健狼👨‍🚀1st教學、文華電研27th社長。','偶養惹很多小綠藻🕵️‍♀️'],
+                        strings: ['文華健狼1st教學、文華電研27th社長。','偶養惹很多小綠藻'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -393,6 +393,41 @@
 </div>
                     
 
+                    
+                        
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="title center-align">
+        <i class="fas fa-music"></i>&nbsp;&nbsp;來一下Musicㄅ
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'false' === 'true',
+        autoplay: 'false' === 'true',
+        theme: '#42b983',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'false' === 'true',
+        listMaxHeight: '',
+        audio: eval([{"name":"Shooting Stars","artist":"Prilly, Selva ","url":"/medias/shootingstars.mp3","cover":"/medias/shootingstars.jpg"},{"name":"The Storm","artist":"TheFatRat & Maisy Kay","url":"/medias/thestorm.mp3","cover":"/medias/thestorm.jpg"},{"name":"Bombay Dreams","artist":"KSHMR & Lost Stories","url":"/medias/bombaydreams.mp3","cover":"/medias/bombaydreams.jpg"},{"name":"In Your Eyes","artist":"Robin Schulz feat. Alida","url":"/medias/inyoureyes.mp3","cover":"/medias/inyoureyes.jpg"}])
+    });
+});
+</script>
                     
 
                     
@@ -589,6 +624,11 @@ $(function () {
 
     
 
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.5'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
     
