@@ -249,8 +249,15 @@ mark {
 
 .bg-color {
     background-image: linear-gradient(to right, #4BFF5C 0%, #2471A3  100%);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    background-color: rgba(72, 201, 176 ,0.6) !important;
+    background-image: none;
 }
-
+/*-webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    background-color: rgba(72, 201, 176 ,0.6) !important;
+    background-image: none;*/
 .text-color {
     color: #1ABC9C !important;
 }
@@ -279,6 +286,7 @@ mark {
 header .side-nav {
     width: 240px;
     z-index: 999;
+    height: 100vh;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -288,6 +296,8 @@ nav {
 
 header .nav-transparent {
     background-color: transparent !important;
+    -webkit-backdrop-filter:blur(0px);
+    backdrop-filter:blur(0px);
     background-image: none;
     box-shadow: none;
 }
