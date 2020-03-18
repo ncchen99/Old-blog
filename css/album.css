@@ -1,0 +1,47 @@
+.album a, .album a:hover, .album a:visited {
+  color: inherit;
+  cursor: pointer; }
+
+.album .index-video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+  .album .index-video video {
+    width: 100%; }
+  .album .index-video .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#161823+0,161823+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(22, 24, 35, 0) 0%, #161823 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(22, 24, 35, 0) 0%, #161823 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(22, 24, 35, 0) 0%, #161823 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00161823', endColorstr='#161823',GradientType=0 );
+    /* IE6-9 */ }
+
+.album .index-cont {
+  position: relative;
+  z-index: 3;
+  padding-top: 70vh;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem; }
+  .album .index-cont .album-list .album-item .grid {
+    column-count: 4;
+    column-gap: 0.3rem; }
+    .album .index-cont .album-list .album-item .grid .grid-item {
+      margin-bottom: 0.3rem;
+      border-radius: .1rem;
+      background: #ffffff;
+      overflow: hidden; }
+      .album .index-cont .album-list .album-item .grid .grid-item a {
+        display: block; }
+        .album .index-cont .album-list .album-item .grid .grid-item a img {
+          width: 100%;
+          height: auto;
+          display: block; }

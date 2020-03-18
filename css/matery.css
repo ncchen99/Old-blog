@@ -321,6 +321,11 @@ header .button-collapse i {
 }
 
 header .side-nav .mobile-head {
+    background-image: linear-gradient(to right, #4BFF5C 0%, #2471A3  100%);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    background-color: rgba(72, 201, 176 ,0.6) !important;
+    background-image: none;
     padding: 0 15px;
 }
 
